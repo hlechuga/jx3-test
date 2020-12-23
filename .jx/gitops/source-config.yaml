@@ -11,4 +11,5 @@ spec:
     - name: jx-py-test
     - name: jx-py-test2
     - name: jx-py-test3
+    - name: jx-py-test4
     scheduler: in-repo
