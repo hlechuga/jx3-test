@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: hlechuga
+    provider: github
+    repository: jx-py-test3
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: hlechuga-jx-py-test3
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/hlechuga/jx-py-test3.git
+  org: hlechuga
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-py-test3
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/hlechuga/jx-py-test3
