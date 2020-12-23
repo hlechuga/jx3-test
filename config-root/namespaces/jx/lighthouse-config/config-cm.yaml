@@ -10,6 +10,7 @@ data:
         hlechuga/jx-py-test: true
         hlechuga/jx-py-test2: true
         hlechuga/jx-py-test3: true
+        hlechuga/jx-py-test4: true
         hlechuga/jx3-test: true
     plank: {}
     pod_namespace: jx
@@ -25,6 +26,7 @@ data:
         hlechuga/jx-py-test: merge
         hlechuga/jx-py-test2: merge
         hlechuga/jx-py-test3: merge
+        hlechuga/jx-py-test4: merge
         hlechuga/jx3-test: merge
       queries:
       - labels:
@@ -40,6 +42,7 @@ data:
         - hlechuga/jx-py-test
         - hlechuga/jx-py-test2
         - hlechuga/jx-py-test3
+        - hlechuga/jx-py-test4
       - labels:
         - updatebot
         missingLabels:
@@ -53,6 +56,7 @@ data:
         - hlechuga/jx-py-test
         - hlechuga/jx-py-test2
         - hlechuga/jx-py-test3
+        - hlechuga/jx-py-test4
       target_url: http://dashboard-jx.192.168.64.7.nip.io
 kind: ConfigMap
 metadata:

@@ -18,6 +18,10 @@ data:
       repos:
       - hlechuga/jx-py-test3
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - hlechuga/jx-py-test4
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -80,6 +84,22 @@ data:
       - cat
       - dog
       - pony
+      hlechuga/jx-py-test4:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       hlechuga/jx3-test:
       - config-updater
       - approve
@@ -117,6 +137,9 @@ data:
       trusted_org: todo
     - repos:
       - hlechuga/jx-py-test3
+      trusted_org: todo
+    - repos:
+      - hlechuga/jx-py-test4
       trusted_org: todo
     welcome:
     - message_template: Welcome
