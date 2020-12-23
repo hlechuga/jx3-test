@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: jx-py-test
+    - name: jx-py-test2
     scheduler: in-repo
