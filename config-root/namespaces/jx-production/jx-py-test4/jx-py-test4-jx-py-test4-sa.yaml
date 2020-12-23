@@ -1,0 +1,8 @@
+# Source: jx-py-test4/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx-py-test4-jx-py-test4
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
