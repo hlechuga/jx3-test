@@ -6,6 +6,18 @@ data:
       repos:
       - hlechuga/jx3-test
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - hlechuga/jx-py-test
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - hlechuga/jx-py-test2
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - hlechuga/jx-py-test3
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -20,6 +32,54 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      hlechuga/jx-py-test:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      hlechuga/jx-py-test2:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      hlechuga/jx-py-test3:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       hlechuga/jx3-test:
       - config-updater
       - approve
@@ -49,6 +109,17 @@ data:
     - repos:
       - hlechuga/jx3-test
       trusted_org: todo
+    - repos:
+      - hlechuga/jx-py-test
+      trusted_org: todo
+    - repos:
+      - hlechuga/jx-py-test2
+      trusted_org: todo
+    - repos:
+      - hlechuga/jx-py-test3
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
