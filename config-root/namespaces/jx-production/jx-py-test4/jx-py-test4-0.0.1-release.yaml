@@ -1,0 +1,49 @@
+# Source: jx-py-test4/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-23T16:25:20Z"
+  deletionTimestamp: null
+  name: 'jx-py-test4-0.0.1'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 94aac348744c53e958e1215d8eb6b053300e1302
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: e7e40544724309a3da12856c825c1f8e091ea7f8
+    - author:
+        email: harrold.lechuga@asia.ing.com
+        name: Harrold Lechuga
+      branch: master
+      committer:
+        email: harrold.lechuga@asia.ing.com
+        name: Harrold Lechuga
+      message: |
+        chore: Jenkins X build pack
+      sha: cf3bc9ff398f7a66c15b33e0424ac231e989ac65
+  gitHttpUrl: https://github.com/hlechuga/jx-py-test4
+  gitOwner: hlechuga
+  gitRepository: jx-py-test4
+  name: 'jx-py-test4'
+  releaseNotesURL: https://github.com/hlechuga/jx-py-test4/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
