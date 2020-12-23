@@ -5,7 +5,7 @@ metadata:
   name: jx-py-test4-jx-py-test4
   labels:
     draft: draft-app
-    chart: "jx-py-test4-0.0.1"
+    chart: "jx-py-test4-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx-staging
   annotations:
@@ -24,11 +24,11 @@ spec:
       serviceAccountName: jx-py-test4-jx-py-test4
       containers:
         - name: jx-py-test4
-          image: "10.107.229.210/hlechuga/jx-py-test4:0.0.1"
+          image: "10.107.229.210/hlechuga/jx-py-test4:0.0.2"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.1
+              value: 0.0.2
           envFrom: null
           ports:
             - containerPort: 8080

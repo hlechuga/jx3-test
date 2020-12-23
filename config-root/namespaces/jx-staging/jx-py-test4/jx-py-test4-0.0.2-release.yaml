@@ -2,9 +2,9 @@
 apiVersion: jenkins.io/v1
 kind: Release
 metadata:
-  creationTimestamp: "2020-12-23T16:25:20Z"
+  creationTimestamp: "2020-12-23T18:05:33Z"
   deletionTimestamp: null
-  name: 'jx-py-test4-0.0.1'
+  name: 'jx-py-test4-0.0.2'
   namespace: jx-staging
   labels:
     gitops.jenkins-x.io/pipeline: 'namespaces'
@@ -18,8 +18,8 @@ spec:
         email: jenkins-x@googlegroups.com
         name: jenkins-x-bot
       message: |
-        chore: release 0.0.1
-      sha: 94aac348744c53e958e1215d8eb6b053300e1302
+        chore: release 0.0.2
+      sha: ef0e72cfca9f5caa54b4cc9d9f75c7c0d90e4be5
     - author:
         email: jenkins-x@googlegroups.com
         name: jenkins-x-bot
@@ -29,7 +29,7 @@ spec:
         name: jenkins-x-bot
       message: |
         chore: add variables
-      sha: e7e40544724309a3da12856c825c1f8e091ea7f8
+      sha: 5e25d5681247ceb21b9fc637182ec8381b3533b5
     - author:
         email: harrold.lechuga@asia.ing.com
         name: Harrold Lechuga
@@ -38,12 +38,12 @@ spec:
         email: harrold.lechuga@asia.ing.com
         name: Harrold Lechuga
       message: |
-        chore: Jenkins X build pack
-      sha: cf3bc9ff398f7a66c15b33e0424ac231e989ac65
+        update v2
+      sha: 0d7ee693f019ae06b25959ae8c8bec145e531e4b
   gitHttpUrl: https://github.com/hlechuga/jx-py-test4
   gitOwner: hlechuga
   gitRepository: jx-py-test4
   name: 'jx-py-test4'
-  releaseNotesURL: https://github.com/hlechuga/jx-py-test4/releases/tag/v0.0.1
-  version: v0.0.1
+  releaseNotesURL: https://github.com/hlechuga/jx-py-test4/releases/tag/v0.0.2
+  version: v0.0.2
 status: {}

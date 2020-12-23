@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: jx-py-test4
   labels:
-    chart: "jx-py-test4-0.0.1"
+    chart: "jx-py-test4-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     fabric8.io/expose: "true"
