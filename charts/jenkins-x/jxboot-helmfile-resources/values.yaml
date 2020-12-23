@@ -3,7 +3,7 @@ ingress:
   customHosts:
     # specify your ngrok custom domain here
     # such as
-    #    hook: "myuniqueid.ngrok.io
+    #    hook: "4091ff9967bb.ngrok.io.ngrok.io
     # so that webhooks from, say, github.com, will work to your local laptop
     hook: ""
 
