@@ -30,16 +30,20 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: hlechuga
+    repository: jx3-test
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.64.7.nip.io
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: hlechuga
   repository: bucketrepo
   secretStorage: vault
   vault: {}
